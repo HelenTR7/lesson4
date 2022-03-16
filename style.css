@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* flexbox */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px 15px;
+}
+
+.element {
+    max-width: calc((100% - 45px)/4);
+    flex: 1 0 calc((100% - 45px)/4);
+    border: 1px solid;
+}
+
+.element3 {
+    height: 100px;
+    order: 1;
+}
+
+.element6 {
+    align-self: flex-end;
+}
+
+/* flex-direction */
+
+/* flex-wrap */
+
+/* justify-content */
+
+/* align-items */
+
+/* gap */
+
+/* order */
+
+/* flex (flex-grow/flex-shrink/flex-basis) */
+
+/* align-self */
+
+/* семантика */
